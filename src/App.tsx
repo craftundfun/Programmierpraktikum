@@ -5,23 +5,16 @@
  * @format
  */
 
-import React from 'react';
 import type {PropsWithChildren} from 'react';
-import {
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  useColorScheme,
-  View,
-} from 'react-native';
+import React from 'react';
+import {ScrollView, StatusBar, StyleSheet, Text, useColorScheme, View,} from 'react-native';
 
 import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
+	Colors,
+	DebugInstructions,
+	Header,
+	LearnMoreLinks,
+	ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
 
@@ -31,6 +24,7 @@ type SectionProps = PropsWithChildren<{
 
 function Section({children, title}: SectionProps): React.JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
+
   return (
     <View style={styles.sectionContainer}>
       <Text
@@ -90,6 +84,7 @@ function App(): React.JSX.Element {
             paddingHorizontal: safePadding,
             paddingBottom: safePadding,
           }}>
+			<Text>Hallo Welt!</Text>
           <Section title="Step One">
             Edit <Text style={styles.highlight}>App.tsx</Text> to change this
             screen and then come back to see your edits.
