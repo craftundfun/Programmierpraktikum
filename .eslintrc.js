@@ -4,6 +4,6 @@ module.exports = {
 	rules: {
 		'react-native/no-inline-styles': 'off',
 		'no-trailing-spaces': ['warn', { skipBlankLines: true }],
-		'quotes': ['error', 'double'],
+		'quote': 'off',
 	},
 };
