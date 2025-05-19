@@ -19,7 +19,7 @@ function NotHomeScreen({navigation, route}: any): React.JSX.Element {
 
 	return (
 		<View style={{padding: '5%'}}>
-			<Text>Your address was {route.params.address}</Text>
+			<Text>Your address was {route.params?.address ?? 'unknown'}</Text>
 			<Button title={"Go to Home again"}
 					onPress={() => {
 						navigation.dispatch(
