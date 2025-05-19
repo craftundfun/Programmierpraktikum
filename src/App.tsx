@@ -19,6 +19,7 @@ function App(): React.JSX.Element {
 				<Stack.Screen
 					name="Not Home"
 					component={NotHomeScreen}
+					options={{headerShown: false}}
 				/>
 			</Stack.Navigator>
 		</NavigationContainer>
