@@ -46,7 +46,7 @@ function HomeScreen({navigation}: any): React.JSX.Element {
 				}}>
 				<View style={styles.overlay}>
 					<View style={styles.popup}>
-						<Text>Put in the roboter address!</Text>
+						<Text>Put in the robot address!</Text>
 						<TextInput
 							style={{height: 40, borderColor: 'gray', borderWidth: 1}}
 							placeholder="Enter address"
