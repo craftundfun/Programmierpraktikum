@@ -8,7 +8,7 @@ export type MyButtonProps = {
 	disabled?: boolean;
 }
 
-// Component because a Button cant have a style prop
+// Component because a Button can't have a style prop
 export function DefaultButton({title, onPress = () => {}, disabled = false}: MyButtonProps): JSX.Element {
 	return (
 		<Button

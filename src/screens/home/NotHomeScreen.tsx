@@ -1,4 +1,4 @@
-// for route testing
+// This screen is used to test navigation routes and demonstrate transitioning between screens.
 import React, {useCallback} from "react";
 import {Text, View} from "react-native";
 import Orientation from "react-native-orientation-locker";
