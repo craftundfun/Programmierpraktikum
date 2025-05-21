@@ -10,7 +10,7 @@ const styles = StyleSheet.create({
 	overlay: {
 		flex: 1,
 		justifyContent: 'center',
-		// +80 = 50% opacity
+		// +A0 = ~62.75% opacity
 		backgroundColor: colors.background + 'A0',
 	},
 	popup: {
