@@ -1,0 +1,1 @@
+# Standarddatei von Expo, durch Migration aber nicht genutzt. Unsere Colors liegen in `styles/Colors.ts`

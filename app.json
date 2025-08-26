@@ -1,0 +1,66 @@
+{
+  "expo": {
+    "name": "RoboApp",
+    "slug": "RoboApp",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/images/icon.png",
+    "scheme": "roboapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "platforms": ["android", "ios"],
+    "androidNavigationBar": {
+      "visible": "immersive"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.app-entwicklung.RoboApp",
+      "infoPlist": {
+        "UIStatusBarHidden": true,
+        "UIViewControllerBasedStatusBarAppearance": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.app_entwicklung.RoboApp"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ],
+      [
+        "expo-audio",
+        {
+          "microphonePermission": {
+            "ios": {
+              "description": "This app requires microphone access to record audio."
+            },
+            "android": {
+              "description": "This app requires microphone access to record audio."
+            }
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "74af8eed-e63e-46c9-a95f-399920e2c80f"
+      }
+    }
+  }
+}
